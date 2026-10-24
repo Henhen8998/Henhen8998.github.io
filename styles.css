@@ -1,0 +1,26 @@
+/* Styles matching Logan Voravong's personal site aesthetic */
+
+/* Custom smooth dark scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #070b14;
+}
+::-webkit-scrollbar-thumb {
+    background: #1a2337;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #2a3754;
+}
+
+/* Card hover transitions */
+.group {
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base link transitions */
+a {
+    transition: all 0.2s ease-in-out;
+}
